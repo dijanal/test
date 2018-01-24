@@ -1,8 +1,9 @@
 """Flask app."""
 
-from flask import Flask 
-from models import Comment
-from models import Table, Col
+from flask import Flask
+from models import *
+# from flask_table import Table, Col
+
 
 
 app = Flask(__name__)
@@ -13,20 +14,18 @@ def index():
     
     return "Welcome!"
 
-@app.route('/comments')
-def comments():
-	page="""
-	<DOCTYPE html>
-	<html>
-	<head>
-	</head>
-	<body>
-	{}
-	</body>
-	</html>
-	"""
-	table = ItemTable(COMMENTS)
-	return page.format(table)
+# @app.route('/comments')
+# def comments():
 
-
-
+# 	page="""
+# 	<DOCTYPE html>
+# 	<html>
+# 	<head>
+# 	</head>
+# 	<body>
+# 	{}
+# 	</body>
+# 	</html>
+# 	"""
+# 	table = T.table()
+# 	return page.format(table)

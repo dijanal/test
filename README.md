@@ -4,7 +4,7 @@ Teorijski deo
 Dati sto konciznije odgvore u formi prosto prosirenih recenica na svako od sledecih pitanja.
 
 01. Sta je to JSON? 
-JavaScript Object Notation format za razmenu podataka.
+JavaScript Object Notation-oblik formata za razmenu podataka koji je baziran na JS-u.
 
 02. Sta je to XML?
 Extensible Markup Language je meta jezik koji se koristi za definisanje drugih jezika ili za razmenu podataka.
@@ -16,13 +16,15 @@ Uniform resource locator-putanja do odredjenog sadrzaja na internetu,tj. web adr
 Hypertext transfer protocol-protokol za razmenu fajlova koji sadrze tekst napisan u HTML-u.
 
 05. Sta je to RESTful API?
+Representatonal state transfer-sluzi za uspostavljanje veze izmedju dva servere i baziran je na HTTP protokolu. Rest je arhitektualna paradigma za web sevise i oni koji je koriste poznati su kao restfull servisi.
 
-06. Koje HTTP metode imamo? Get,post,head,option,put,delete,connect.
+06. Koje HTTP metode imamo? Get,post,put,delete.
 
 07. Sta je to DNS? 
-Domain name service-servis 
+Domain name service-ima funkciju da odredenu IP adresu pretvori u veb adresu. DNS je podatak koji upućuje domen registar ka veb hosting servisu kako bi blog (ili veb sajt) postao vidljiv na internetu. 
 
 08. Sta je to private IP?
+Privatne IP adrese  se koriste za lokalnu upotrebu i nisu vidljive na internetu. Primenom privatnih IP adresa unutrasnja mreža može biti vidljiva na internetu samo preko jedne javne IP adrese, čime se povećava sigurnost mreže i smanjuje potrošnja javnih IP adresa.
 
 09. Sta je to AJAX?
  -nova tehnika za kreiranje bolje,brze i interaktivne veb aplikacije uz pomoc XML,HTML,CSS i JS.
